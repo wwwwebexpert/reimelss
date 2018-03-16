@@ -1,0 +1,37 @@
+{
+  "entry": {
+    "main": [
+      "./scripts/main.js",
+      "./styles/bootstrap.min.css",
+      "./styles/main.scss",
+      "./styles/style.scss",
+      "./styles/fonts.css",
+      "./styles/font-awesome.min.css",
+      "./styles/stars.css"
+    ],
+    "customizer": [
+      "./scripts/customizer.js",
+      "./scripts/jquery.min.js",
+      "./scripts/bootstrap.min.js",
+      "./scripts/sass.min.js",
+      "./scripts/all.js",
+      "./scripts/stars.js",
+      "./scripts/custom.js"
+    ]
+  },
+  "font-awesome": {
+    "main": [
+      "./fonts/font-awesome.scss",
+      "./fonts/*"
+    ]
+  },
+  "publicPath": "wp-content/themes/outletcorner",
+  "devUrl": "http://outletcorner.mobilytedev.com",
+  "proxyUrl": "http://localhost:3000",
+  "cacheBusting": "[name]_[hash:8]",
+  "watch": [
+    "app/**/*.php",
+    "config/**/*.php",
+    "resources/views/**/*.php"
+  ]
+}
